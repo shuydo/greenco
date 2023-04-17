@@ -1,0 +1,182 @@
+body {
+  position: relative;
+  font-family: "Mukta Vaani", sans-serif;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+.wrap {
+  max-width: 1340px;
+  margin: 0 auto;
+}
+
+.btn__box {
+  display: flex;
+  gap: 59px;
+  bottom: -225px;
+}
+.btn__box .btn {
+  width: 377px;
+  border: 3px solid #979797;
+  font-family: "Koulen", cursive;
+  font-size: 36px;
+  padding: 35px 0;
+  padding-left: 48px;
+  letter-spacing: 8px;
+  color: #7a797a;
+  text-transform: uppercase;
+}
+
+.main {
+  background-color: #f4f4f4;
+}
+.main .wrap {
+  position: relative;
+  height: 1080px;
+}
+.main header {
+  display: flex;
+  padding-top: 72px;
+}
+.main header img:nth-child(2) {
+  margin-left: auto;
+}
+.main [alt=logo] {
+  margin-top: 377px;
+}
+.main p {
+  font-family: "Akronim", cursive;
+  font-size: 48px;
+}
+.main [alt=plant] {
+  position: absolute;
+  bottom: -1px;
+  right: 135px;
+}
+
+.dark {
+  position: relative;
+  background-color: #4a4a4a;
+}
+.dark .social {
+  position: absolute;
+  left: 42px;
+  bottom: 229px;
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+}
+.dark .wrap {
+  position: relative;
+  display: flex;
+}
+.dark .wrap [alt=plants] {
+  position: absolute;
+  top: 141px;
+  left: 0;
+}
+.dark .wrap .btn__box {
+  position: absolute;
+}
+.dark aside {
+  width: 561px;
+  display: flex;
+  align-items: center;
+  gap: 93px;
+  margin-left: auto;
+  padding: 195px 0 135px;
+}
+.dark aside .txt {
+  color: #fff;
+}
+.dark aside .txt h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 81px;
+  letter-spacing: 19px;
+  margin: 0;
+}
+.dark aside .txt p {
+  position: relative;
+  line-height: 1.4583333333;
+  margin-top: 31px;
+  text-align: justify;
+  padding-bottom: 35px;
+  margin-bottom: 0;
+  border-bottom: 2px solid #d8d8d8;
+}
+.dark aside .txt p:after {
+  position: absolute;
+  bottom: -3.5px;
+  content: "";
+  height: 5px;
+  width: 144px;
+  display: block;
+  background-color: #fff;
+}
+.dark aside [alt=next] {
+  height: 66px;
+}
+
+.pots {
+  margin-top: 507px;
+  padding-bottom: 139px;
+}
+.pots .wrap {
+  max-width: 1019px;
+}
+.pots .wrap .content {
+  display: flex;
+  gap: 24px;
+}
+.pots .wrap .content .cards {
+  display: flex;
+  gap: 10px;
+}
+.pots .wrap .content h2 {
+  color: #7a797a;
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  letter-spacing: 10.67px;
+  margin: 0;
+  margin-top: 30px;
+  text-transform: uppercase;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
+.pots .wrap .content p {
+  color: #4a4a4a;
+  text-align: center;
+  margin: 24px auto 0;
+  line-height: 1.4583333333;
+}
+.pots .wrap .content .card1 p {
+  width: 284px;
+}
+.pots .wrap .content .card2 p {
+  width: 410px;
+}
+.pots .wrap .btn__box {
+  margin-top: 148px;
+}
+.pots .wrap .btn__box .btn {
+  margin-left: auto;
+}
+
+[alt=bottom_decor] {
+  position: absolute;
+  bottom: 0;
+  left: 107px;
+}/*# sourceMappingURL=style.css.map */

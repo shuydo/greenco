@@ -1,0 +1,225 @@
+$white: #fff;
+$txt-btn: #7a797a;
+$slider-border: #d8d8d8;
+$btn-border: #979797;
+
+$bg-main: #f4f4f4;
+$bg-dark: #4a4a4a;
+// B7BBB2 979797
+body {
+  position: relative;
+  font-family: "Mukta Vaani", sans-serif;
+  font-size: 24px;
+  // font-family: "Akronim", cursive;
+  // font-family: "Koulen", cursive;
+  // font-family: "Roboto", sans-serif;
+  // font-family: "Work Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+.wrap {
+  max-width: 1340px;
+  margin: 0 auto;
+}
+
+.btn__box {
+  // position: absolute;
+  display: flex;
+  gap: 59px;
+  bottom: -225px;
+
+  .btn {
+    width: 377px; // 431px;
+    border: 3px solid $btn-border;
+
+    font-family: "Koulen", cursive;
+    font-size: 36px;
+    padding: 35px 0;
+    padding-left: 48px;
+    letter-spacing: 8px;
+
+    color: $txt-btn;
+    text-transform: uppercase;
+  }
+}
+
+.main {
+  background-color: $bg-main;
+
+  .wrap {
+    position: relative;
+    height: 1080px; //3;
+  }
+
+  header {
+    display: flex;
+    padding-top: 72px;
+
+    img:nth-child(2) {
+      margin-left: auto;
+    }
+  }
+
+  [alt="logo"] {
+    margin-top: 377px;
+  }
+
+  p {
+    font-family: "Akronim", cursive;
+    font-size: 48px;
+  }
+
+  [alt="plant"] {
+    position: absolute;
+    bottom: -1px;
+    right: 135px;
+  }
+}
+
+.dark {
+  position: relative;
+  background-color: $bg-dark;
+
+  .social {
+    position: absolute;
+    left: 42px;
+    bottom: 229px;
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+  }
+
+  .wrap {
+    position: relative;
+    display: flex;
+
+    [alt="plants"] {
+      position: absolute;
+      top: 141px;
+      left: 0;
+    }
+
+    .btn__box {
+      position: absolute;
+    }
+  }
+
+  aside {
+    width: 561px;
+    display: flex;
+    align-items: center;
+    gap: 93px;
+    margin-left: auto;
+    padding: 195px 0 135px;
+
+    .txt {
+      color: $white;
+
+      h1 {
+        font-family: "Work Sans", sans-serif;
+        font-size: 81px;
+        letter-spacing: 19px;
+        margin: 0;
+      }
+
+      p {
+        position: relative;
+        line-height: calc(35 / 24); //rep in places with Mukta
+        margin-top: 31px;
+        text-align: justify;
+        padding-bottom: 35px;
+        margin-bottom: 0;
+
+        border-bottom: 2px solid $slider-border;
+
+        &:after {
+          position: absolute;
+          bottom: -3.5px;
+          content: "";
+          height: 5px;
+          width: calc(432px / 3); //w.txt
+          display: block;
+          background-color: $white;
+        }
+      }
+    }
+
+    [alt="next"] {
+      height: 66px;
+    }
+  }
+}
+
+.pots {
+  margin-top: 507px;
+  padding-bottom: 139px;
+
+  .wrap {
+    max-width: 1019px;
+
+    .content {
+      display: flex;
+      gap: 24px;
+      // align-items: center;
+
+      .cards {
+        display: flex;
+        gap: 10px;
+      }
+
+      h2 {
+        color: $txt-btn;
+        font-family: "Roboto", sans-serif;
+        font-size: 48px;
+        letter-spacing: 10.67px;
+        margin: 0;
+        margin-top: 30px;
+        text-transform: uppercase;
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+      }
+
+      p {
+        color: $bg-dark;
+        text-align: center;
+        margin: 24px auto 0;
+        line-height: calc(35 / 24);
+      }
+
+      .card1 p {
+        width: 284px;
+      }
+
+      .card2 p {
+        width: 410px;
+      }
+    }
+
+    .btn__box {
+      margin-top: 148px;
+
+      .btn {
+        margin-left: auto;
+      }
+    }
+  }
+}
+
+[alt="bottom_decor"] {
+  position: absolute;
+  bottom: 0;
+  left: 107px;
+}
